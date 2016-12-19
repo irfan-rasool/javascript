@@ -14,6 +14,6 @@ let trips = [{ distance: 34 }, { distance: 12 } , { distance: 1 }];
 
 var totalDistance = trips.reduce((prev, trip) => {
        return prev + trip.distance;
-}), 0);
+}, 0);
 
 console.log(totalDistance);
