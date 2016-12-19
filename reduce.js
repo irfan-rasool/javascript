@@ -12,7 +12,7 @@
 //Use the 'reduce' helper to find the sum of all the distances traveled.  Assign the result to the variable 'totalDistance'
 let trips = [{ distance: 34 }, { distance: 12 } , { distance: 1 }];
 
-var totalDistance = trips.reduce((prev, trip) => {
+let totalDistance = trips.reduce((prev, trip) => {
        return prev + trip.distance;
 }, 0);
 
