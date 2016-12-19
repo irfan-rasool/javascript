@@ -57,15 +57,15 @@ Your function should return
 Hint: Use the 'reduce' and 'find' helpers.  
 */
 
-function unique(array) {
-    return array.reduce((uniqueElements, arrElement)=>{
-         let isElementPresent = uniqueElements.find((element) => {
-            return element === arrElement;
-         });
-         if (!isElementPresent) {uniqueElements.push(arrElement);}
-         return uniqueElements;
-    }, []);
-}
+// function unique(array) {
+//     return array.reduce((uniqueElements, arrElement)=>{
+//          let isElementPresent = uniqueElements.find((element) => {
+//             return element === arrElement;
+//          });
+//          if (!isElementPresent) {uniqueElements.push(arrElement);}
+//          return uniqueElements;
+//     }, []);
+// }
 
-let numbers = [1, 1, 2, 3, 4, 4];
-console.log(unique(numbers));
+// let numbers = [1, 1, 2, 3, 4, 4];
+// console.log(unique(numbers));
